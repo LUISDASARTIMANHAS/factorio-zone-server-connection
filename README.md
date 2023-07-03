@@ -3,7 +3,7 @@ uma conexão individoual traves do token de usuario na linha 487.
 
 Este Sistema tem por objetivo conectar o seu site a API do factorio zone, para que possa interagir exclusivamente sem interferencia de terceiros e podendo receber requisições de fora ou de outros sites para que possa iniciar o servidor ou fazer modificações no save e nos mods. 
 
-#Demonstracção: [FACTORIO SERVER CONTROL](https://luisdasartimanhas.github.io/factorio-zone-server-connection/) 
+# *Demonstração*: [FACTORIO SERVER CONTROL](https://luisdasartimanhas.github.io/factorio-zone-server-connection/) 
 
 # Vantagens 
 Apenas um token de usuario.
