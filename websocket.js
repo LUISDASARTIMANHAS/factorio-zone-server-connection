@@ -1,4 +1,4 @@
- e = {
+var e = {
   669: (e) => {
     !(function (t) {
       var n = "Modernizr" in t,
