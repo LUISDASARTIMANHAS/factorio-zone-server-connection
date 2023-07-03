@@ -1,0 +1,102 @@
+<html lang="pt-BR" >
+  <head>
+    
+     <meta charset="utf-8" />
+     <meta http-equiv="Refresh" content="180">
+     <meta name="viewport" content="width=device-width, initial-scale=0.7" />
+    
+    <link href="https://www.factorio.com//static/img/favicon.ico" rel="icon" type="image/x-icon">
+    <links>
+    </links>
+    <link rel="stylesheet" href="https://www.factorio.com/static/css/main.css?v=87e4eb56">
+    <link rel="stylesheet" href="./server.css">
+    
+    <title>FACTORIO SERVER TERMINAL ADM&CHEATS</title>
+  </head>
+  <body>
+    <div class="site-altura">
+      <div class="conteudo" id="Server" role="main">
+        
+    <hidden style="display: none;">
+    <label for="regions">Regiões Do Servidor</label>
+    <select id="regions"></select>
+
+    <label for="versions">Versões Do Jogo</label>
+    <select id="versions"></select>
+
+    <label for="saves">MUNDOS</label>       
+    <div class="flex-row">
+      <a hidden id="delete-link" href="javascript:void(0);">[delete]</a>        
+      <a hidden id="upload-link" href="javascript:void(0);">[upload]</a>        
+      <a hidden id="download-link" href="javascript:void(0);">[download]</a>
+      </div>
+       
+    <select id="saves">Sem MUNDOS PARA CARREGAR!</select>
+
+        <mods-list id="mods" class="flex-row">
+          <label for="mods">MODS</label>
+          <js id="mods-enabled">0 Ativado</js>
+
+          <br>
+          
+          <a    
+             class="button button-green" 
+             hidden 
+             id="mods-upload-link" 
+             href="javascript:void(0);">
+            ENVIAR MOD
+          </a>
+          
+            <a 
+               style="display: inline;" 
+               class="button button-green" 
+               hidden id="mods-pick" 
+               href="javascript:void(0);">
+              MOSTRAR MODS
+          </a>
+
+          <div id="mods-list">Sem Mods</div>
+        </mods-list>
+        
+        <label for="Porta-Server">PORTA DO SERVIDOR</label>
+        <option rgb id="Porta-Server">Carregando...</option>
+    
+    
+    <button
+            disabled  
+            id="start-button"  
+            class="button button-green">
+          Iniciar Servidor
+        </button>
+        
+        <button
+          hidden
+          id="stop-button"
+          class="button button-red">
+          Parar Servidor
+        </button>
+      </hidden>
+
+      <pre id="output-area" class="logs"></pre>
+      <input placeholder="Chat do server, Comandos" id="input-area" class="input-area" />
+    
+        <br>
+    
+    <footer>
+    <div class="links"></div>
+    
+      <div id="direitos" class="direitos">Loading...</div>
+      </footer>  
+</div></div> 
+<!--     fim do site altura -->
+    <button class="btnFixedleft"     
+            onclick="window.location.href = './'">    
+      VOLTAR
+    </button>
+  </body>
+  
+  <script src="https://pingobras.glitch.me/js/links.js"></script>
+  <script src="https://pingobras.glitch.me/js/copyright.js" defer></script>
+  <script src="./status.js" defer></script>
+  <script src="./websocket.js" defer></script>
+</html>
