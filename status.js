@@ -1,7 +1,5 @@
 Rgb()
 setInterval(Reload, 2000)
-localStorage.setItem("userToken", "PINGOBRAS.SA");
-
 
 function Reload() {
     const IPServer = document.getElementById("Porta-Server").value
