@@ -43,6 +43,7 @@ body {
   text-transform: capitalize;
   width: 75%;
   height: 50px;
+  margin:10px;
 }
 
 [RGB] {
@@ -58,12 +59,14 @@ label {
 #versions {
   width: 75%;
   min-height: 50px;
+  margin:10px;
 }
 
 /* Regions */
 #regions {
   width: 75%;
   min-height: 50px;
+  margin:10px;
 }
 
 .IP {
