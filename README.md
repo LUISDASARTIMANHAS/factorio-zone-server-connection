@@ -3,6 +3,12 @@ uma conexão individoual traves do token de usuario na linha 487.
 Este Sistema tem por objetivo conectar o seu site a API do factorio zone, para que possa interagir exclusivamente sem interferencia de terceiros e podendo receber requisições de fora ou de outros sites para que possa iniciar o servidor ou fazer modificações no save e nos mods. 
 
 # Vantagens 
+Apenas um token de usuario.
+Não a necessidade de compartilhar o token, o Sistema ja gerencia isso
+Pode iniciar o servidor atraves do sistema ou de requisições por fora ou pelo próprio factorio.zone
+Pode parar o servidor atraves do sistema ou de requisições por fora ou pelo próprio factorio.zone
+Pode fazer modificações em saves atraves do sistema ou de requisições por fora ou pelo próprio factorio.zone
+Pode fazer modificações em mods atraves do sistema ou de requisições por fora ou pelo próprio factorio.zone
 
 
 # Factorio Zone
