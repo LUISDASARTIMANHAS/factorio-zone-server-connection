@@ -7,6 +7,8 @@ Basta clicar no botão Iniciar servidor para começar a funcionar em segundos. O
 
 Se você tiver alguma sugestão ou tiver algum problema, [converse no Discord](https://discord.gg/Pg3KgZq) ou [discuta nos fóruns](https://forums.factorio.com/viewtopic.php?f=133&t=48014) ou [envie-me um e-mail](admin@factorio.zone) . Seu feedback é apreciado.
 
+[FAZER UMA DOAÇÃO](https://www.paypal.com/donate?token=NbWH_uDRcVV_yDTXI0mkgIDkvb6jjIs_lYNqnAZF1ZwRKBhHq_cspjDFzuKDRrOV4ErOT3KVLTFbwRkq)
+
     1- O Servidor É Desligado Após Uma Hora Sem Jogadores E Os Jogadores São Expulsos Após 30 Minutos De AFK.
     
     2- O Servidor Pausa Se Não Houver Jogadores Online.
