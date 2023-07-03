@@ -8,7 +8,7 @@ function Reload() {
     const mundo = document.getElementById("saves").value
     const mods = document.getElementById("mods-enabled").value
     const FactorioDBStats = { IP: IPServer, Versão: versao, Região: regiao, Mundo: mundo, Mods: mods };
-    const slotsNames = {"slot1":"SERVER HUB","slot2":"FileTorradao Multi"}
+    const slotsNames = {"slot1":"SERVER HUB","slot2":""}
     const slotsNamesDB = JSON.stringify(slotsNames);
     const FactorioDB = JSON.stringify(FactorioDBStats);
 
