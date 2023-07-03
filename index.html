@@ -1,0 +1,150 @@
+<html lang="pt-BR" >
+  <head>
+     <meta charset="utf-8" />
+     <meta http-equiv="Refresh" content="180">
+     <meta name="viewport" content="width=device-width, initial-scale=0.7" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta http-equiv="Access-Control-Allow-Headers" content="*">
+    <meta http-equiv="Access-Control-Allow-Origin" content="strict-origin-when-cross-origin">
+    
+    <link href="https://www.factorio.com//static/img/favicon.ico" rel="icon" type="image/x-icon">
+    <links>
+    </links>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="https://www.factorio.com/static/css/main.css?v=87e4eb56">
+    <seo>
+    <meta
+      name="description"
+      content="FACTORIO SERVER ADM, LIGAR, DESLIGAR,EXCLUIR, UPAR MODS E MUNDOS."/>
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="PNGOBRAS FACTORIO SERVER ADM" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://factorio-server.glitch.me" />
+    <meta
+      property="og:description"
+      content=" FACTORIO SERVER ADM, LIGAR, DESLIGAR,EXCLUIR, UPAR MODS E MUNDOS."/>
+    <meta
+      property="og:image"
+      content="https://logicservers.com/img/factorio-logo.png"/>
+    <meta name="twitter:card" content="summary" />
+    </seo>
+    
+    <title>PNGOBRAS FACTORIO SERVER CONTROL</title>
+  </head>
+  <body>
+    <div class="site-altura">
+      <div style="display: none;" id="Server" class="conteudo" role="main">
+        
+
+    <label for="regions">Regiões Do Servidor</label>
+    <select disabled id="regions"></select>
+
+    <label for="versions">Versões Do Jogo</label>
+    <select -disabled id="versions"></select>
+
+    <label for="saves">MUNDOS</label>       
+    <div class="flex-row">
+      <a hidden id="delete-link" href="javascript:void(0);">[Deletar]</a>        
+      <a hidden id="upload-link" href="javascript:void(0);">[Enviar]</a>        
+      <b hidden><a hidden id="download-link" href="javascript:void(0);">[Baixar]</a></b>
+      </div>
+       
+    <select id="saves">
+        <option value="slot1">
+          <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">
+            HUB DO SERVIDOR 
+          </font>
+          </font>
+      </option>
+        </select>
+
+        <mods-list id="mods" class="flex-row">
+          <label for="mods">MODS</label>
+          <js id="mods-enabled">0 Ativado</js>
+
+          <br>
+          
+          <a    
+             class="button button-green" 
+             hidden 
+             id="mods-upload-link" 
+             href="javascript:void(0);">
+            ENVIAR MOD
+          </a>
+          
+            <a 
+               style="display: inline;" 
+               class="button button-green" 
+               hidden id="mods-pick" 
+               href="javascript:void(0);">
+              MOSTRAR MODS
+          </a>
+
+          <div id="mods-list" style="display: none;">Sem Mods</div>
+        </mods-list>
+        
+        <label for="Porta-Server">PORTA DO SERVIDOR</label>
+        <option rgb id="Porta-Server">Carregando...</option>
+        
+        <br>
+    
+    <button
+            disabled  
+            id="start-button"  
+            class="button button-green">
+          Iniciar Servidor
+        </button>
+        
+        <button
+          hidden
+          id="stop-button"
+          class="button button-red">
+          Parar Servidor
+        </button>
+        
+        <hidden>
+          <pre id="output-area" class="logs"></pre>
+          <input placeholder="Chat do server, Comandos" id="input-area" class="input-area" />
+        </hidden>
+      
+        <button class="btnFixedRight"     
+            onclick="window.location.href = '/Server/terminal.html'">    
+      TERMINAL
+    </button>
+        
+        
+        
+    <footer>
+    <div class="links"></div>
+    
+      <div id="direitos" class="direitos">Loading...</div>
+      </footer>
+  </div>
+    
+      
+      
+      <login id="screenLoad" class="conteudo" role="main">
+      
+      <h1 id="labelLogin">AGUARDANDO LOGIN...</h1>
+      <div class="boxbar">
+          <div rgb class="bar" id="barlogin">Loading... 70%</div>
+        </div>
+
+      </login>
+    </div>
+    <button class="btnFixedleft"     
+            onclick="window.location.href = '/'">    
+      VOLTAR
+    </button>
+  </body>
+  <script src="https://pingobras.glitch.me//js/links.js"></script>
+  <script src="https://pingobras.glitch.me/js/links.js"></script>
+  <script src="https://pingobras.glitch.me/js/copyright.js" defer></script>
+  <script src="/auth.js" defer></script>
+  <script src="/status.js" defer></script>
+  <script src="/websocket.js" defer></script>
+  <autoscripts>
+    <script src="https://pingobras.glitch.me/js/load-scripts.js"></script>
+    </autoscripts>
+</html>
