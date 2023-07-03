@@ -1,0 +1,226 @@
+* {
+  text-transform: capitalize;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  max-width: 100%;
+  align-self: center;
+}
+
+/* Body */
+body {
+  text-transform: capitalize;
+  text-align: center;
+  box-sizing: border-box;
+  color: gray;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 1px;
+  transition: all 0.3s ease-out;
+}
+
+/* Division */
+.control-container .control-label div {
+  color: orange;
+  font-size: 25px;
+}
+
+/* Control label */
+.control-container .control-item .control-label {
+  color: orange;
+  font-size: 25px;
+}
+
+/* Saves */
+#saves {
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  text-transform: capitalize;
+  width: 75%;
+  height: 50px;
+}
+
+[RGB] {
+  transition: all 1s ease-out;
+}
+
+label {
+  color: orange;
+  font-size: 25px;
+}
+
+/* Versions */
+#versions {
+  width: 75%;
+  min-height: 50px;
+}
+
+/* Regions */
+#regions {
+  width: 75%;
+  min-height: 50px;
+}
+
+.IP {
+  font-family: monospace;
+  font-size: 1.7em;
+  padding-left: 8px;
+  resize: none;
+  width: 50%;
+  min-height: 50px;
+}
+
+.input-area {
+  width: 100%;
+  display: block;
+  height: 50px;
+}
+
+.logs {
+  box-sizing: border-box;
+  font-size: 0.8em;
+  height: auto;
+  margin: 0;
+  padding: 12px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  color: orange;
+  font-style: italic;
+}
+
+.boxbar {
+  width: 720px;
+  background-color: grey;
+}
+
+.bar {
+  width: 50%;
+  height: 30px;
+  background: green;
+  text-align: center;
+  /* To center it horizontally (if you want) */
+  line-height: 30px;
+  /* To center it vertically */
+  color: white;
+}
+
+mods-list {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* Mods enabled */
+#mods-enabled {
+  color: orange;
+  font-size: 25px;
+}
+
+hidden {
+  display: none;
+}
+a {
+  display: block;
+  margin: 10px;
+}
+
+.p-title {
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: red;
+}
+ul {
+  margin: 0px;
+  list-style-position: inside;
+  padding: 0px;
+}
+li {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.lista-mods-prioridade {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: red;
+  flex-wrap: wrap;
+}
+
+.lista-mods {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.button-red {
+    background-color: #fe5a5a;
+    padding: 10px 12px 10px 12px;
+    font-size: 100%;
+    text-align: left;
+    color: black;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: baseline;
+    min-width: 128px;
+    border: none;
+    line-height: inherit;
+    white-space: nowrap;
+    box-shadow: inset 8px 0px 4px -8px black, inset -8px 0px 4px -8px black, inset 0px 10px 2px -8px #fda1a1, inset 0px 10px 2px -8px #8b0101, inset 0px -9px 2px -8px black, 0px 0px 4px 0px #000000;
+    position: relative;
+    margin-right: 14px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    height: 36px;
+    text-align: left;
+}
+.button-blue {
+    background-color: blue;
+    padding: 10px 12px 10px 12px;
+    font-size: 100%;
+    text-align: left;
+    color: black;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: baseline;
+    min-width: 128px;
+    border: none;
+    line-height: inherit;
+    white-space: nowrap;
+    box-shadow: 
+      inset 8px 0px 4px -8px black, 
+      inset -8px 0px 4px -8px black, 
+      inset 0px 10px 2px -8px lightblue, 
+      inset 0px 10px 2px -8px purple, 
+      inset 0px -9px 2px -8px black, 
+      0px 0px 4px 0px black;
+    position: relative;
+    margin-right: 14px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    height: 36px;
+    text-align: left;
+}
+.button:hover, 
+.button:focus, 
+.button.hover {
+    color: black;
+    text-decoration: none;
+    outline: 0;
+    box-shadow: inset 8px 0px 4px -8px #000, inset -8px 0px 4px -8px #000, inset 0px 9px 2px -8px white, inset 0px 8px 4px -8px #000, inset 0px -8px 4px -8px #000, inset 0px -9px 2px -8px #432400, 0px 0px 4px 0px #000000, inset 0px 0px 4px 2px #f9b44b;
+    background-color: #e39827;
+    filter: drop-shadow(0 0 2px #f9b44b);
