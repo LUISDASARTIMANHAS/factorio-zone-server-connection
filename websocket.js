@@ -484,7 +484,7 @@ function n(s) {
               this.client.post(
                 "https://factorio.zone/api/user/login",
                 {
-                  userToken: "LbKJWQpvqPkfqFSWLAZ67Vp3",
+                  userToken: "insira seu user token",
                   visitSecret: this.visitSecret,
                   reconnected: this.reconnected,
                   script: this.script ? this.script.src : null,
