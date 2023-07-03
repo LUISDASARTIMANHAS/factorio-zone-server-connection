@@ -4,10 +4,14 @@ Este Sistema tem por objetivo conectar o seu site a API do factorio zone, para q
 
 # Vantagens 
 Apenas um token de usuario.
-Não a necessidade de compartilhar o token, o Sistema ja gerencia isso
+Não a necessidade de compartilhar o token, o Sistema ja gerencia isso.
+
 Pode iniciar o servidor atraves do sistema ou de requisições por fora ou pelo próprio factorio.zone
+
 Pode parar o servidor atraves do sistema ou de requisições por fora ou pelo próprio factorio.zone
+
 Pode fazer modificações em saves atraves do sistema ou de requisições por fora ou pelo próprio factorio.zone
+
 Pode fazer modificações em mods atraves do sistema ou de requisições por fora ou pelo próprio factorio.zone
 
 
