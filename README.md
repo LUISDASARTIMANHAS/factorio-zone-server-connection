@@ -1,6 +1,11 @@
 # factorio-zone-server-connection
 
 # Factorio Zone
+Bem-vindo! Este site permite que você execute um servidor Factorio gratuitamente. Não é executado ou associado aos desenvolvedores da Factorio ou Wube Software.
+
+Basta clicar no botão Iniciar servidor para começar a funcionar em segundos. O endereço IP e a porta serão exibidos na caixa à direita quando o servidor estiver pronto. Você pode, opcionalmente, selecionar uma região diferente para melhor latência para sua localização, bem como a versão de sua preferência. Seu salvamento será armazenado quando você clicar em Stop Server e poderá voltar mais tarde para continuar. A seleção Salvar permite escolher entre 9 slots para salvar diferentes. Para fazer upload de um jogo salvo, selecione um slot de salvamento vazio ou exclua primeiro o salvamento existente no slot.
+
+Se você tiver alguma sugestão ou tiver algum problema, [converse no Discord](https://discord.gg/Pg3KgZq) ou [discuta nos fóruns](https://forums.factorio.com/viewtopic.php?f=133&t=48014) ou [envie-me um e-mail](admin@factorio.zone) . Seu feedback é apreciado.
 
     1- O Servidor É Desligado Após Uma Hora Sem Jogadores E Os Jogadores São Expulsos Após 30 Minutos De AFK.
     
