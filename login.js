@@ -1,7 +1,8 @@
 const url = 'https://factorio.zone/api/user/login'; // URL de destino
 const secret = "fijahL0GGv3yC6IhBlBtDV";
+const token = "Insira seu token"
 const constructorSend =
-  "userToken=LbKJWQpvqPkfqFSWLAZ67Vp3" +
+  "userToken=" +token+
   "&visitSecret=" +
   secret +
   "&reconnected=" +
