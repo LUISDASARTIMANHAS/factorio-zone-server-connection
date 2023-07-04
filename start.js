@@ -1,4 +1,5 @@
 function start() {
+  const url = "https://factorio.zone/api/instance/start"; // URL de destino
   const versao = document.getElementById("versions").value;
   const regiao = document.getElementById("regions").value;
   const mundo = document.getElementById("saves").value;
@@ -15,12 +16,16 @@ function start() {
     "&" +
     "save=" +
     mundo;
-
-  fetch("https://factorio.zone/api/instance/start", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: constructorSend,
-  })
+const requestOptions = {
+  method: 'POST',
+  headers: {
+    "Content-Type": "application/x-www-form-urlencoded",
+  },
+  body: constructorSend
+};
+  
+  
+fetch(url, requestOptions)
     .then((response) => {
       if (response.statusCode==200) {
         window.location.href = "/terminal";
